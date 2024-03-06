@@ -12,7 +12,9 @@
         table {
             width: 500px;
             border-collapse: collapse;
+            position: relative;
         }
+        
 
         caption {
             padding: 10px;
@@ -27,13 +29,19 @@
             padding: 10px;
         }
 
+        thead > tr > th { /*Esse e o trecho que deveria deixar o cabecalho fixo*/
+            position: sticky;
+            top: -1px;
+            background-color: gray;
+        }
+
         thead, tfoot {
             background-color: gray;
             color: white;
 
         }
 
-        tbody > tr:nth-child(2n) {
+        tbody > tr:nth-child(2n) { /* odd or even */
             background-color: lightgrey;
         }
 
@@ -135,6 +143,96 @@
                 <td class="num">7.164.788</td>
                 <td class="num">3.4%</td>
             </tr>
+            <tr>
+                <td class="num2">8</td>
+                <td>Ceará</td>
+                <td class="num">9.132.078</td>
+                <td class="num">4,3%</td>
+            </tr>
+            <tr>
+                <td class="num2">9</td>
+                <td>Pará</td>
+                <td class="num">8.602.865</td>
+                <td class="num">4,1%</td>
+            </tr>
+            <tr>
+                <td class="num2">10</td>
+                <td>Santa Catarina</td>
+                <td class="num">7.164.788</td>
+                <td class="num">3.4%</td>
+            </tr>
+            <tr>
+                <td class="num2">8</td>
+                <td>Ceará</td>
+                <td class="num">9.132.078</td>
+                <td class="num">4,3%</td>
+            </tr>
+            <tr>
+                <td class="num2">9</td>
+                <td>Pará</td>
+                <td class="num">8.602.865</td>
+                <td class="num">4,1%</td>
+            </tr>
+            <tr>
+                <td class="num2">10</td>
+                <td>Santa Catarina</td>
+                <td class="num">7.164.788</td>
+                <td class="num">3.4%</td>
+            </tr>
+            <tr>
+                <td class="num2">8</td>
+                <td>Ceará</td>
+                <td class="num">9.132.078</td>
+                <td class="num">4,3%</td>
+            </tr>
+            <tr>
+                <td class="num2">9</td>
+                <td>Pará</td>
+                <td class="num">8.602.865</td>
+                <td class="num">4,1%</td>
+            </tr>
+            <tr>
+                <td class="num2">10</td>
+                <td>Santa Catarina</td>
+                <td class="num">7.164.788</td>
+                <td class="num">3.4%</td>
+            </tr>
+            <tr>
+                <td class="num2">8</td>
+                <td>Ceará</td>
+                <td class="num">9.132.078</td>
+                <td class="num">4,3%</td>
+            </tr>
+            <tr>
+                <td class="num2">9</td>
+                <td>Pará</td>
+                <td class="num">8.602.865</td>
+                <td class="num">4,1%</td>
+            </tr>
+            <tr>
+                <td class="num2">10</td>
+                <td>Santa Catarina</td>
+                <td class="num">7.164.788</td>
+                <td class="num">3.4%</td>
+            </tr>
+            <tr>
+                <td class="num2">8</td>
+                <td>Ceará</td>
+                <td class="num">9.132.078</td>
+                <td class="num">4,3%</td>
+            </tr>
+            <tr>
+                <td class="num2">9</td>
+                <td>Pará</td>
+                <td class="num">8.602.865</td>
+                <td class="num">4,1%</td>
+            </tr>
+            <tr>
+                <td class="num2">10</td>
+                <td>Santa Catarina</td>
+                <td class="num">7.164.788</td>
+                <td class="num">3.4%</td>
+            </tr>
         
             
             
@@ -147,6 +245,9 @@
         </tfoot>
         
     </table>
+    <p>
+        
+    </p>
 
 </body>
 </html>
