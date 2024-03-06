@@ -8,9 +8,18 @@
         body {
             font-family: Arial, Helvetica, sans-serif;
         }
+
         table {
-            width: 1000px;
+            width: 500px;
             border-collapse: collapse;
+        }
+
+        caption {
+            padding: 10px;
+            border: 1px solid black;
+            background-color: azure;
+            font-weight: bold;
+            
         }
 
         td, th {
@@ -27,6 +36,14 @@
         td.num {
             text-align: right;
         }
+        td.num2 {
+            width: 2px;
+            text-align: center;
+        }
+        tfoot {
+            width: 100%;
+        }
+        
 
     </style>
 </head>
@@ -44,71 +61,72 @@
     -->
     <h1>Tabela de Estados do brasil segundo WP</h1>
     <table>
+        <caption>População das unidades federativas</caption>
         <thead>
             <tr>
-                <th>Posição</th>
-                <th>Estado</th>
-                <th>População</th>
-                <th>% da População</th>
+                <th scope="col">Posição</th>
+                <th scope="col">Estado</th>
+                <th scope="col">População</th>
+                <th scope="col">% da População</th>
             </tr>
         </thead>
         <tbody>
             <tr>
-                <td>1</td>
+                <td class="num2">1</td>
                 <td>São Paulo</td>
                 <td class="num">45.919.049</td>
                 <td class="num">21,9%</td>
             </tr>
             <tr>
-                <td>2</td>
+                <td class="num2">2</td>
                 <td>Minas Gerais</td>
                 <td class="num">21.168.791</td>
                 <td class="num">10,1%</td>
             </tr>
             <tr>
-                <td>3</td>
+                <td class="num2">3</td>
                 <td>Rio de Janeiro</td>
                 <td class="num">17.264.943</td>
                 <td class="num">21,9%</td>
             </tr>
             <tr>
-                <td>4</td>
+                <td class="num2">4</td>
                 <td>Bahia</td>
                 <td class="num">14.873.064</td>
                 <td class="num">21,9%</td>
             </tr>
             <tr>
-                <td>5</td>
+                <td class="num2">5</td>
                 <td>Paraná</td>
                 <td class="num">11.433.957</td>
                 <td class="num">5,4%</td>
             </tr>
             <tr>
-                <td>6</td>
+                <td class="num2">6</td>
                 <td>Rio Grande do Sul</td>
                 <td class="num">11.377.239</td>
                 <td class="num">5,4%</td>
             </tr>
             <tr>
-                <td>7</td>
+                <td class="num2">7</td>
                 <td>Pernambuco</td>
                 <td class="num">9.557.071</td>
                 <td class="num">4,5%</td>
             </tr>
             <tr>
-                <td>8</td>
+                <td class="num2">8</td>
                 <td>Ceará</td>
                 <td class="num">9.132.078</td>
                 <td class="num">4,3%</td>
             </tr>
             <tr>
-                <td>9</td>
+                <td class="num2">9</td>
                 <td>Pará</td>
                 <td class="num">8.602.865</td>
                 <td class="num">4,1%</td>
             </tr>
             <tr>
-                <td>10</td>
+                <td class="num2">10</td>
                 <td>Santa Catarina</td>
                 <td class="num">7.164.788</td>
                 <td class="num">3.4%</td>
@@ -118,7 +136,10 @@
             
         </tbody>
         <tfoot>
-
+            <tr>
+                <th colspan="2">Total de habitantes</th>
+                <td class="num" scope="roll" colspan="2"><strong>201.147.125</strong></td>
+            </tr>
         </tfoot>
         
     </table>
