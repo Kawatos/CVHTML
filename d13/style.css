@@ -49,3 +49,16 @@ iframe#tela {
     height: 471px;
 
 }
+
+section#redessociais {
+    text-align: right;
+}
+
+section#redessociais img {
+    /* usar section#redessociais > a > img tambem e valido*/
+    width: 50px;
+    margin: 10px;
+    margin-right: 5vh;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.24);
+}
