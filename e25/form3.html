@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de formulario</title>
+</head>
+<body>
+    <h1>Teste de formulario</h1>
+    <form action="cadastro.php" method="get" autocomplete="on">
+        <P>
+            <Label for="inome">Nome</Label>
+            <input type="text" name="Nome" id="inome" required maxlength="30" placeholder="Nome completo" autocomplete="name" required>
+        </P>
+        <P>
+            <Label for="imedia">Media</Label>
+            <input type="text" name="media" id="imedia" required min="0" max="10" placeholder="0 a 10" step="0.1" autocomplete="name" required>
+        </P>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+
+    </form>
+</body>
+</html>
