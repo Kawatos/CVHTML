@@ -8,21 +8,14 @@
 <body>
     <h1>Teste de formulario</h1>
     <form action="cadastro.php" method="post" autocomplete="on">
+       
         <fieldset>
-            <legend>cor</legend>   
-            <label for="icor">Cor: </label>
-            <input type="color" name="cor" id="icor">
+            <legend>Selecione um numero</legend>   
+            <label for="inum">Numero: </label>
+            <input type="range" name="num" id="inum" min="1" max="10" oninput="ival.innerHTML = Number(inum.value)">
+            <output name="valor" id="ival">0</output>
         </fieldset>
-        <fieldset>
-            <legend>nivel de satisfação</legend>   
-            <label for="isas">sas: </label>
-            <input type="range" name="sas" id="isas" min="1" max="100">
-        </fieldset>
-        <fieldset>
-            <legend>foto</legend>   
-            <label for="ifot">sas: </label>
-            <input type="file" name="fot" id="ifot">
-        </fieldset>
+    
         <p>
             <input type="submit" value="Enviar">
             <input type="reset" value="Limpar">
