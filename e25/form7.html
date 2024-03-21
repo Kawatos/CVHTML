@@ -7,7 +7,7 @@
 </head>
 <body>
     <h1>Teste de formulario</h1>
-    <form action="cadastro.php" method="get" autocomplete="on">
+    <form action="cadastro.php" method="post" autocomplete="on">
         <fieldset>
             <legend>Estado</legend>   
             <label for="iest">Estado</label>
@@ -31,12 +31,11 @@
             <label for="iprof">Profissao</label>
             <input type="text" name="prof" id="iprof" list="lstprof">
             <datalist id="lstprof">
-                <option value="ADM">Administrador</option>
-                <option value="">Cambialista</option>
-                <option value="">Desenvolvedor</option>
-                <option value="">Professor</option>
+                <option>Administrador</option>
+                <option>Cambialista</option>
+                <option>Desenvolvedor</option>
+                <option>Professor</option>
             </datalist>
-
         </fieldset>
         
         <p>
@@ -44,5 +43,6 @@
             <input type="reset" value="Limpar">
         </p>
     </form>
+     <!-- SEMPRE QUE USAR ARQUIRVOS FORMULARIOS USAR O METODO POST -->
 </body>
 </html>
