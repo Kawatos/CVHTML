@@ -1,2 +1,25 @@
 @charset "UTF-8";
 
+@media screen and (min-width: 768px){
+    span#burger {
+        display: none;
+    }
+
+    menu {
+        display: block;
+        text-align: ;
+    }
+
+    menu li {
+        display: inline-block;
+        
+    }
+
+    menu ul {
+        text-align: ;
+    }
+    
+    main {
+        width: 768px;
+    }
+}
