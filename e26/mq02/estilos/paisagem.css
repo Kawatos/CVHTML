@@ -1,2 +1,9 @@
 @charset "UTF-8";
 
+/* configurações horizontal  */
+
+body {
+    background-color: orange;
+    background-image: url(../imagens/cev-landscape.jpg);
+    
+}
