@@ -30,7 +30,7 @@
     }
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1024px) and (min-height: 768px) {
     section#login {
         width: 990px;
         height: ;
