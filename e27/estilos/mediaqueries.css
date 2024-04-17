@@ -14,7 +14,7 @@
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
     main {
-        background-image: linear-gradient(to top, #8a5ebc, #5f2c82);
+        background-image: linear-gradient(to top, #5B707D, #2e3a41);
     }
     section#login {
         width: 80vw;
@@ -47,7 +47,7 @@
 /*Adicionado por mim*/
 @media screen and (min-width: 768px) and (max-height: 768px) {
     main {
-        background-image: linear-gradient(to top, #8a5ebc, #5f2c82);
+        background-image: linear-gradient(to top, #5B707D, #2e3a41);
     }
     section#login {
         width: 70vw;
@@ -81,7 +81,7 @@
 
 @media screen and (min-width: 1024px) and (min-height: 768px) {
     main {
-        background-image: linear-gradient(to top, #8a5ebc, #5f2c82);
+        background-image: linear-gradient(to top, #5B707D, #2e3a41);
     }
     section#login {
         width: 950px;
