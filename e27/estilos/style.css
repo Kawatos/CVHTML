@@ -74,6 +74,11 @@ div#formulario > p {
 
 }
 
+#formulario {
+    overflow-y: auto;
+    max-height: calc(100vh - 100px); /* ajuste a altura conforme necessário */
+}
+
 form > div.campo {
     background-color: #5B707D;
     display: block;
