@@ -52,7 +52,7 @@ section#login {
 
 section#login > div#imagem {
     display: block;
-    background: #5B707D url(../imagens/pexels-scott-webb-532568.jpg) no-repeat;
+    background: white url(../imagens/pexels-scott-webb-532568.jpg) no-repeat;
     background-size: cover;
     background-position: right top;
     height: 200px;
@@ -85,7 +85,7 @@ form > div.campo {
     width: 100%;
     height: 40px;
     border-radius: 5px;
-    border: 3px solid #5B707D;
+    border: 3px solid #5b707d00;
     margin: 5px 0px;
     padding-left: 5px;
     color: white;
@@ -140,7 +140,7 @@ div.campo > input {
     font-size: 1em;
     width: calc(100% - 50px);
     height: 100%;
-    border: 2px solid #5B707D;
+    border: 2px solid #5b707d;
     border-radius: 5px;
     position: relative;
     top: -8px;
